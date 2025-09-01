@@ -4,12 +4,12 @@
 #include "AdafruitIO_WiFi.h"
 
 // Configuração do WiFi
-#define WIFI_SSID "fogazzaaa"
-#define WIFI_PASS "fogazzaaa"
+#define WIFI_SSID "fogazzaaaa"
+#define WIFI_PASS "fogazzaaaa"
 
 // Autenticação AdafuritIO
-#define IO_USERNAME "fogazza"
-#define IO_KEY "aio_yuwn43VjTMw8ncn46128ivfdanA6"
+#define IO_USERNAME ""
+#define IO_KEY ""
 
 AdafruitIO_WiFi io(IO_USERNAME, IO_KEY, WIFI_SSID, WIFI_PASS);
 
@@ -51,5 +51,5 @@ void loop() {
 
   io.run();  // Manter a conexão com a AdrafuitIO Ativa
 
-  delay(3000);
+  //delay(3000);
 }

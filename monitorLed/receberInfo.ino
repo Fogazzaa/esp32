@@ -3,8 +3,6 @@
 
 void handleBotaoLed(AdafruitIO_Data *data) {
 
-  Serial.print("Estado do LED");
-
   bool estadoBotao = data->toBool();
 
   Serial.print(F("Estado Recebido do Feed: "));
